@@ -17,7 +17,8 @@ Tools used:
 
 ## How to use this project
 
-1. Install requirements
+1. Install [Google Chrome browser](https://www.google.com/chrome/)
+2. Install requirements
 
 + If you use Windows install requirements with the following command:
 ```pip install -r requirements.txt```
