@@ -44,9 +44,13 @@ Tools used:
 + Create test case in the Index Page suite
 <img src="testCaseGS.png" width="600" height="200" alt="creation of test case">
 + Use the following command to download new browsers:
+
 ```playwright install```
+
 + Use the following command to run autotests:
+
 ```pytest .```
+
 + You can find the locator for the 1st test case on the index page
   + Use F12 button to open DevTools
   + <img src="main_button_devtools.png" width="200" height="200" alt="usin dev tools on the button">
