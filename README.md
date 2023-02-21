@@ -42,3 +42,7 @@ Tools used:
 6. Lets check that main search button have the text Google Search
 + Create test case in the Index Page suite
 <img src="testCaseGS.png" width="600" height="200" alt="creation of test case">
++ Use the following command to download new browsers:
+```playwright install```
++ Use the following command to run autotests:
+```pytest .```
