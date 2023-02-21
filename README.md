@@ -17,6 +17,8 @@ Tools used:
 
 ## How to use this project
 
+1. Install requirements
+
 + If you use Windows install requirements with the following command:
 
 ```pip install -r requirements.txt```
@@ -24,4 +26,12 @@ Tools used:
 + If you use Linux install requirements with the following command:
 
 ```pip3 install -r requirements.txt```
+
+2. Registrate on Qase.io TMS (Test Management System)
+
++ [Modern TestOps platform](https://qase.io/)
+
+3. Create new project GoogleSearch
+
++ ![Creation of project on the platform](pytest-playwright/GS_Qase.png "Creation of project on the platform")
 
