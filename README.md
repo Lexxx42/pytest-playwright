@@ -47,3 +47,10 @@ Tools used:
 ```playwright install```
 + Use the following command to run autotests:
 ```pytest .```
++ You can find the locator for the 1st test case on the index page
+  + Use F12 button to open DevTools
+  + <img src="main_button_devtools.png" width="200" height="200" alt="usin dev tools on the button">
+  + <img src="button_html.png" width="800" height="100" alt="button html code">
+  + We need to find locator for the button
+  + CSS: ```[data-ved="0ahUKEwj-7OLupaf9AhV4Q_EDHQPUDysQ4dUDCBA"]```
+  + XPATH: ```//div[@class='FPdoLc lJ9FBc']//input[@name='btnK']```
