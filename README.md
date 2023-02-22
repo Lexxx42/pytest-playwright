@@ -30,19 +30,19 @@ Tools used:
 + [Modern TestOps platform](https://qase.io/)
 
 3. Create new project GoogleSearch
-<img src="GS_Qase.png" width="300" height="300" alt="creation of project on the platform">
+<img src="img/GS_Qase.png" width="300" height="300" alt="creation of project on the platform">
 
 4. Create new suite Index Page
-<img src="Create_suite.png" width="300" height="300" alt="creation of test suite">
+<img src="img/Create_suite.png" width="300" height="300" alt="creation of test suite">
 
 5. Test suite Index Page is a representation of the main Google page
-<img src="Google_page.png" width="300" height="200" alt="google main page">
+<img src="img/Google_page.png" width="300" height="200" alt="google main page">
 
 + [Google](https://www.google.com/)
 
 6. Lets check that main search button have the text Google Search
 + Create test case in the Index Page suite
-<img src="testCaseGS.png" width="600" height="200" alt="creation of test case">
+<img src="img/testCaseGS.png" width="600" height="200" alt="creation of test case">
 + Use the following command to download new browsers:
 
 ```playwright install```
@@ -53,8 +53,8 @@ Tools used:
 
 + You can find the locator for the 1st test case on the index page
   + Use F12 button to open DevTools
-  + <img src="main_button_devtools.png" width="200" height="200" alt="usin dev tools on the button">
-  + <img src="button_html.png" width="800" height="100" alt="button html code">
+  + <img src="img/main_button_devtools.png" width="200" height="200" alt="usin dev tools on the button">
+  + <img src="img/button_html.png" width="800" height="100" alt="button html code">
   + We need to find locator for the button
   + CSS: ```[data-ved="0ahUKEwj-7OLupaf9AhV4Q_EDHQPUDysQ4dUDCBA"]```
   + XPATH: ```//div[@class='FPdoLc lJ9FBc']//input[@name='btnK']```
