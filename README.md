@@ -21,10 +21,14 @@ Tools used:
 2. Install requirements
 
 + If you use Windows install requirements with the following command:
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 + If you use Linux install requirements with the following command:
-```pip3 install -r requirements.txt```
+```
++ pip3 install -r requirements.txt
+```
 
 2. Registrate on Qase.io TMS (Test Management System)
 + [Modern TestOps platform](https://qase.io/)
@@ -45,16 +49,26 @@ Tools used:
 <img src="img/testCaseGS.png" width="600" height="200" alt="creation of test case">
 + Use the following command to download new browsers:
 
-```playwright install```
+```
+playwright install
+```
 
 + Use the following command to run autotests:
 
-```pytest .```
+```
+pytest .
+```
 
 + You can find the locator for the 1st test case on the index page
   + Use F12 button to open DevTools
   + <img src="img/main_button_devtools.png" width="200" height="200" alt="usin dev tools on the button">
   + <img src="img/button_html.png" width="800" height="100" alt="button html code">
   + We need to find locator for the button
-  + CSS: ```[data-ved="0ahUKEwj-7OLupaf9AhV4Q_EDHQPUDysQ4dUDCBA"]```
-  + XPATH: ```//div[@class='FPdoLc lJ9FBc']//input[@name='btnK']```
+  + CSS: 
+  ```
+  [data-ved="0ahUKEwj-7OLupaf9AhV4Q_EDHQPUDysQ4dUDCBA"]
+  ```
+  + XPATH: 
+  ```
+  //div[@class='FPdoLc lJ9FBc']//input[@name='btnK']
+  ```
